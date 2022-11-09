@@ -21,10 +21,10 @@ Currently these packages support OAuth1 and OAuth2. They are designed to work on
 The CocoaPods distribution supports iOS-based authentication using Google Cloud Service Accounts (only).
                        DESC
 
-  s.homepage = "https://github.com/google/auth-library-swift"
+  s.homepage = "https://github.com/mmalamas/google-auth-library-swift.git"
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author = "Google"
-  s.source = { :git => "https://github.com/google/auth-library-swift.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/mmalamas/google-auth-library-swift.git", :tag => s.version.to_s }
 
   s.source_files =
     "Sources/OAuth2/Code.swift",
